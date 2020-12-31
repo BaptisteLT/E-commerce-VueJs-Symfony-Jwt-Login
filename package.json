@@ -1,0 +1,49 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.31.0",
+    "core-js": "^3.0.0",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
+    "regenerator-runtime": "^0.13.2",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0",
+    "webpack-notifier": "^1.6.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "dependencies": {
+    "@types/jwt-decode": "^2.2.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "jwt-decode": "^2.2.0",
+    "vue": "^2.6.12",
+    "vue-cookies": "^1.7.4",
+    "vue-cookies-reactive": "^2.0.5",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-router": "^3.4.3",
+    "vue-sliding-pagination": "^1.1.0",
+    "vuejs-jwt": "^1.1.0",
+    "vuetify": "^2.3.10",
+    "vuex": "^3.5.1",
+    "vuex-persistedstate": "^3.1.0"
+  },
+  "name": "E-commerce_marchepas_mais_fixture",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}
